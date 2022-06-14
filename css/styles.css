@@ -3,6 +3,8 @@
     --primary-color: #38af90;
     --color-white: #fff;
     --color-dark-gray : #797979;
+    --bg-light-gray: #F0F0F0;
+
 
 }
 
@@ -61,14 +63,22 @@ header h1{
 
 }
 
-.title {
+#news {
+    width: 100%;
+    margin: 0 auto;
     text-align: center;
-    margin-top: 40px;
-    color : var(--color-dark-gray);
-    font-size: 24px;
-    font-weight: 700;
+    min-width: 320px;
 
 }
+
+.news-title p{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-dark-gray);
+    margin-top: 40px;
+}
+
+
 
 @media (max-width: 576px) {
 
